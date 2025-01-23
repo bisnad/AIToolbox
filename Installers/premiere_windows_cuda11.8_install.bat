@@ -9,8 +9,8 @@ call %CONDA_PATH%\Scripts\activate.bat
 REM Add Conda Channels
 call conda config --add channels conda-forge
 
-REM Create Premiere Conda Environment
-echo Create Premiere Conda Environment
+REM Create Conda Environment
+echo Create Conda Environment
 call conda create --name %ENV_NAME% python=%PYTHON_VERSION% -y
 call conda activate %ENV_NAME%
 
