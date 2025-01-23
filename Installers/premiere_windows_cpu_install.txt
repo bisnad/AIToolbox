@@ -7,10 +7,10 @@
 
 
 # create conda environment
-conda create --name Premiere python=3.10
+conda create --name premiere python=3.10
 
 # activate conda environment
-conda activate Premiere
+conda activate premiere
 
 # add conda forge as additional default channel 
 conda config --add channels conda-forge

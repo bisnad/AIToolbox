@@ -2,7 +2,7 @@ REM Installation Script for UMMPose Conda Environment
 REM Windows GPU (CUDA 11.8) Version
 
 set CONDA_PATH=C:\Users\%USERNAME%\anaconda3
-set ENV_NAME=Openmmlab_test
+set ENV_NAME=openmmlab_test
 set PYTHON_VERSION=3.8
 call %CONDA_PATH%\Scripts\activate.bat
 

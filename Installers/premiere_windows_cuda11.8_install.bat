@@ -2,7 +2,7 @@ REM Installation Script for Premiere Conda Environment
 REM Windows GPU (CUDA 11.8) Version
 
 set CONDA_PATH=C:\Users\%USERNAME%\anaconda3
-set ENV_NAME=Premiere
+set ENV_NAME=premiere
 set PYTHON_VERSION=3.10
 call %CONDA_PATH%\Scripts\activate.bat
 
