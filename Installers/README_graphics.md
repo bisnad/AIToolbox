@@ -8,7 +8,7 @@ To setup a Windows PC with NVidia GPU for training machine learning models, the 
 
 NVidia GPU drivers can easily be installed through the NVidia App. This application can be downloaded from [here](https://www.nvidia.com/en-us/software/nvidia-app/). To update the drive, run the NVidia App, click on the "Drivers" icon in column on the left which opens the drivers page. If a driver update is available, a green "Download" button will be shown of the drivers page. Clicking this button will start the download and installation process for the new driver. When prompted with the option to "express install" or "custom install" the driver, chose "express install".
 
-<img src="C:\Users\dbisig\AppData\Roaming\Typora\typora-user-images\image-20250210173821978.png" alt="image-20250210173821978"  />
+![Nvidia_App](C:\Users\dbisig\Projects\Premiere\Software_Git2\AIToolbox\Installers\docs_media\Nvidia_App.png)
 
 ## Download and install CUDA
 
@@ -18,7 +18,7 @@ The AI-Toolbox has been developed and tested with CUDA version 11.8. The CUDA in
 
 When executing the CUDA installer, it is recommended to chose the "Custom" instead of the "Express" installation option. Then, when selecting the driver components for installation, only select "CUDA" and deselect "Other components" and "Driver components".
 
-![image-20250210180246118](C:\Users\dbisig\AppData\Roaming\Typora\typora-user-images\image-20250210180246118.png)
+![CUDA_installer](C:\Users\dbisig\Projects\Premiere\Software_Git2\AIToolbox\Installers\docs_media\CUDA_installer.png)
 
 ## Download and install cuDNN
 
