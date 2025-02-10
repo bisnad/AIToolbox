@@ -1,0 +1,42 @@
+Anaconda - Commands:
+
+Environments
+
+List Environments: conda env list
+Activate Environment: conda activate ENV_NAME
+Create Environment: conda create --name ENV_NAME python=PYTHON_VERSION
+Delete Environment: conda env remove --name ENV_NAME
+Export Environment: conda env export -n ENV_NAME -f FILE_NAME.yml --no-builds
+Create Environment from Exported Environment: conda env create -f FILE_NAME.yml
+Clone exist Environment: conda create --clone ORIG_ENV_NAME --name NEW_ENV_NAME
+
+Environment Revisions
+
+Show all revisions of an Environment: conda list --revisions
+Revert to previous revision: conda install --revision REVISION_NUMBER
+
+Channels
+
+List Channels: conda config --show channels
+Add Channel (new channel has highest priority): conda config --add channels CHANNEL_NAME
+Add Channel (new channel has lowest priority): conda config --append channels CHANNEL_NAME
+Remove Channel: conda config --remove channels CHANNEL_NAME
+
+Info on Channels:
+https://conda-forge.org/docs/user/tipsandtricks.html#using-multiple-channels
+
+Packages
+
+List installed Packages: conda list
+Install Package: conda install PACKAGE_NAME
+Update Package: conda update PACKAGE_NAME
+Remove Package: conda remove PACKAGE_NAME
+
+
+Anaconda - Issues:
+
+>> Can't connect to HTTPS URL because the SSL module is not available
+
+Copy the following files from ~\Anaconda3\Library\bin to ~\Anaconda3\DLLs
+libcrypto-1_1-x64.*
+libssl-1_1-x64.*

@@ -6,11 +6,11 @@ The AI-Toolbox consists of a variety of software tools that are written in diffe
 
   This section describes the installation of the graphics drivers and programming libraries for NVidia GPUs. It only applies to Windows PCs that are equipped with an NVidia graphics card.
 
-- C++ Compiler
+- [C++ Compiler](README_cplusplus_compiler.md)
 
   This section describes the installation of a tool chain for compiling c++ programs on Windows and MacOS. This tool chain is required for installing some Python dependencies. 
 
-- Anaconda Environment
+- [Anaconda Environment](README_anaconda.md)
 
   This section describes the setup of a Anaconda environment for running most of the tools written that are written in the Python programming language. There exist a few tools that require a different anaconda environment. The installation of the environments for these tools are described together with these tools.
 
