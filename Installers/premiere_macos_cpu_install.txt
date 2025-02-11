@@ -1,0 +1,55 @@
+# Manual Installation Instructions for Premiere Conda Environment
+# MacOS CPU Version
+
+# Prerequisites
+# Install Anaconda (https://www.anaconda.com/download/success)
+# Clone or Download the AIToolbox Github Repository (https://github.com/bisnad/AIToolbox)
+
+# In the Anaconda terminal, change into the "AIToolbox/Installers" directory
+cd AIToolbox/Installers
+
+# create conda environment
+conda create --name premiere python=3.10
+
+# activate conda environment
+conda activate premiere
+
+# add conda forge as additional default channel 
+conda config --add channels conda-forge
+
+# in the anaconda command, make sure to change into the directory 
+# that contains the fbx-2020.3.7-cp310-none-win_amd64.whl file
+
+# install conda packages
+conda install pytorch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2 -c pytorch -y
+conda install spyder -y
+conda install numpy==1.26.4 -y
+conda install transformers -y
+conda install diffusers -y
+conda install datasets -y
+conda install sentencepiece -y
+conda install evaluate -y
+conda install matplotlib -y
+conda install scikit-learn -y
+conda install pandas -y
+conda install h5py -y
+conda install librosa -y
+conda install python-sounddevice -y
+conda install pysoundfile -y
+conda install tqdm -y
+conda install pyqt -y
+conda install pyqtgraph -y
+conda install pyopengl -y
+conda install transforms3d -y
+conda install pybullet -y
+conda install gym -y
+conda install ffmpeg-python -y
+conda install opencv -y
+conda install vispy -y
+
+# install pip packages
+pip install einops-exts
+pip install python-osc
+pip install simpleaudio
+pip install vocos
+pip install fbx-2020.3.7-cp310-cp310-macosx_10_15_universal2.whl
