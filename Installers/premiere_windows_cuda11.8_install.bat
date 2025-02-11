@@ -34,13 +34,13 @@ call conda install diffusers -y
 echo Install datasets
 call conda install datasets -y
 
-echo Install datasets
+echo Install sentencepiece
 call conda install sentencepiece -y
 
 echo Install evaluate
 call conda install evaluate -y
 
-echo Install datasets
+echo Install matplotlib
 call conda install matplotlib -y
 
 echo Install scikit-learn
