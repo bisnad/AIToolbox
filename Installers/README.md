@@ -14,9 +14,9 @@ The AI-Toolbox consists of a variety of software tools that are written in diffe
 
   This section describes the setup of a Anaconda environment for running most of the tools written that are written in the Python programming language. There exist a few tools that require a different anaconda environment. The installation of the environments for these tools are described together with these tools.
 
-- Openframeworks
+- [openFrameworks](README_openframeworks.md)
 
-  Some tools require the C++ creative coding environment OpenFrameworks for compilation. This section describes the setup of OpenFrameworks and the additional addons that need to be downloaded. 
+  Some tools require the C++ creative coding environment openFrameworks for compilation. This section describes the setup of openFrameworks and the additional addons that need to be downloaded. 
 
 - Supercollider
 
