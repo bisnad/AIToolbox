@@ -59,5 +59,33 @@ The Premiere Anaconda environment can also be installed manually. This can be us
 - premiere_windows_cuda11.8_install.txt
 - premiere_windows_cpu_install.txt
 
+## Create Additional Environments
 
+A few python-based tools have very specific dependencies that are incompatible with the Premiere Anaconda environment. For each of these tools, an additional Anaconda environment has to be created. The following tools require such additional environments:
+
+- Yolo 2D PoseEstimation tool
+- MMPose 2D and 3D Pose Estimation tool
+- ZED Stereo Camera 3D Pose Estimation tool
+
+The installation options for each of these Anaconda environments are the same as for the Premiere environment. They include an executable shell script, an exported environment, and manual installation instructions. In the following list, the corresponding files are grouped by tool:
+
+#### Yolo 2D PoseEstimation tool
+
+ultralytics_windows_cpu_install.bat
+
+ultralytics_windows_cuda11.8_install.bat
+
+#### MMPose 2D and 3D Pose Estimation tool
+
+openmmlab_windows_cuda11.8_install.bat
+
+openmmlab_windows_cuda11.8_install.yml
+
+openmmlab_macos_cpu_install.yml
+
+#### ZED Stereo Camera 3D Pose Estimation tool
+
+zed_windows_cuda11.8_install.bat
+
+zed_windows_cuda11.8_install.yml
 
