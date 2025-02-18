@@ -1,0 +1,23 @@
+# Manual Installation Instructions for ultralytics Conda Environment
+# Windows GPU (CUDA 11.8) Version
+
+# Prerequisites
+# Install Anaconda (https://www.anaconda.com/download/success)
+# Install Cuda 11.8 (from local installer or https://developer.nvidia.com/cuda-11-8-0-download-archive?target_os=Windows&target_arch=x86_64)
+# Install Cudnn 8.7.0.84 (from local archive or https://developer.nvidia.com/downloads/c118-cudnn-windows-8664-87084cuda11-archivezip)
+# Clone or Download the AIToolbox Github Repository (https://github.com/bisnad/AIToolbox)
+
+# create conda environment
+conda create --name ultralytics python=3.10
+
+# activate conda environment
+conda activate ultralytics
+
+# add conda forge as additional default channel 
+conda config --add channels conda-forge
+
+# install conda packages
+conda install -c pytorch -c nvidia -c conda-forge pytorch torchvision pytorch-cuda=11.8 ultralytics
+
+# install pip
+pip install python-osc

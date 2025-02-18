@@ -71,21 +71,52 @@ The installation options for each of these Anaconda environments are the same as
 
 #### Yolo 2D PoseEstimation tool
 
-ultralytics_windows_cpu_install.bat
-
-ultralytics_windows_cuda11.8_install.bat
+- Installer Scripts
+  - ultralytics_macos_cpu_install.sh
+  - ultralytics_windows_cpu_install.bat
+  - ultralytics_windows_cuda11.8_install.bat
+- Exported Environments
+  - ultralytics_macos_cpu_install.yml
+  - ultralytics_windows_cpu_install.yml
+  - ultralytics_windows_cuda11.8_install.yml
+- Manual Installation Instructions
+  - ultralytics_macos_cpu_install.txt
+  - ultralytics_windows_cpu_install.txt
+  - ultralytics_windows_cuda11.8_install.txt
 
 #### MMPose 2D and 3D Pose Estimation tool
 
-openmmlab_windows_cuda11.8_install.bat
+- Installer Scripts
+  - openmmlab_macos_cpu_install.sh
+  - openmmlab_windows_cpu_install.bat
+  - openmmlab_windows_cuda11.8_install.bat
+- Exported Environments
+  - openmmlab_macos_cpu_install.yml
+  - openmmlab_windows_cpu_install.yml
+  - openmmlab_windows_cuda11.8_install.yml
+- Manual Installation Instructions
+  - openmmlab_macos_cpu_install.txt
+  - openmmlab_windows_cpu_install.txt
+  - openmmlab_windows_cuda11.8_install.txt
 
-openmmlab_windows_cuda11.8_install.yml
+Unfortunately, on MacOS, the installation of MMPose requires one cumbersome additional step to make things work. This step involves modifying one line of code in the file nms.py. This file is located in the directory: ~/opt/anaconda3/envs/openmmlab/lib/python3.8/site-packages/mmcv/ops/
 
-openmmlab_macos_cpu_install.yml
+In this file, line 127 has to be changed from:
+
+`inds = NMSop.apply(bo`xes, scores, iou_threshold, offset, score_threshold,`max_num)`
+
+to: 
+
+`inds = NMSop.apply(bo`xes.to('cpu'), scores.to('cpu'), iou_threshold, offset, score_threshold,`max_num)`
 
 #### ZED Stereo Camera 3D Pose Estimation tool
 
-zed_windows_cuda11.8_install.bat
+The ZED Pose Estimation functionality strictly requires a Linux or Windows computer that is equipped with a Nvidia GPU. For this reason, the only installation instructions provided here are for Windows PCs in combination with Cuda version 11.8.
 
-zed_windows_cuda11.8_install.yml
+- Installer Scripts
+  - zed_windows_cuda11.8_install.bat
+- Exported Environments
+  - zed_windows_cuda11.8_install.yml
 
+- Manual Installation Instructions
+  - zed_windows_cuda11.8_install.txt

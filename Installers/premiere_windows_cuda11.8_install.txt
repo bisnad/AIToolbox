@@ -5,8 +5,7 @@
 # Install Anaconda (https://www.anaconda.com/download/success)
 # Install Cuda 11.8 (from local installer or https://developer.nvidia.com/cuda-11-8-0-download-archive?target_os=Windows&target_arch=x86_64)
 # Install Cudnn 8.7.0.84 (from local archive or https://developer.nvidia.com/downloads/c118-cudnn-windows-8664-87084cuda11-archivezip)
-# Clone or Download Premiere Repository (https://github.com/bisnad/Premiere)
-
+# Clone or Download the AIToolbox Github Repository (https://github.com/bisnad/AIToolbox)
 
 # create conda environment
 conda create --name premiere python=3.10

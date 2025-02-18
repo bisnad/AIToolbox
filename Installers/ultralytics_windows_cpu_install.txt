@@ -1,0 +1,21 @@
+# Manual Installation Instructions for ultralytics Conda Environment
+# Windows CPU Version
+
+# Prerequisites
+# Install Anaconda (https://www.anaconda.com/download/success)
+# Clone or Download the AIToolbox Github Repository (https://github.com/bisnad/AIToolbox)
+
+# create conda environment
+conda create --name ultralytics python=3.10
+
+# activate conda environment
+conda activate ultralytics
+
+# add conda forge as additional default channel 
+conda config --add channels conda-forge
+
+# install conda packages
+conda install -c pytorch -c conda-forge pytorch torchvision ultralytics
+
+# install pip
+pip install python-osc

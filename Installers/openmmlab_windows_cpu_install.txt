@@ -1,0 +1,34 @@
+# Manual Installation Instructions for openmmlab Conda Environment
+# Windows GPU CPU Version
+
+# Prerequisites
+# Install Anaconda (https://www.anaconda.com/download/success)
+# Install Cuda 11.8 (from local installer or https://developer.nvidia.com/cuda-11-8-0-download-archive?target_os=Windows&target_arch=x86_64)
+# Install Cudnn 8.7.0.84 (from local archive or https://developer.nvidia.com/downloads/c118-cudnn-windows-8664-87084cuda11-archivezip)
+# Clone or Download the AIToolbox Github Repository (https://github.com/bisnad/AIToolbox)
+# Clone or Download the MMPose Github Repository (https://github.com/open-mmlab/mmpose)
+
+# create conda environment
+conda create --name openmmlab python=3.8
+
+# activate conda environment
+conda activate openmmlab
+
+# add conda forge as additional default channel 
+conda config --add channels conda-forge
+
+# install conda packages
+conda install pytorch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 -c pytorch -y
+conda install spyder -y
+conda install numpy==1.26.4 -y
+conda install pyqt -y
+conda install pyqtgraph -y
+conda install pyopengl -y
+
+# install pip and mim packages
+pip install python-osc
+pip install -U openmim
+mim install mmengine
+pip install mmcv==2.1.0 -f https://download.openmmlab.com/mmcv/dist/cpu/torch2.1/index.html
+pip install "mmdet>=3.1.0"     
+mim install "mmpose>=1.1.0" --user

@@ -1,0 +1,33 @@
+# Manual Installation Instructions for Zed Conda Environment
+# Windows GPU (CUDA 11.8) Version
+
+# Prerequisites
+# Install Anaconda (https://www.anaconda.com/download/success)
+# Install Cuda 11.8 (from local installer or https://developer.nvidia.com/cuda-11-8-0-download-archive?target_os=Windows&target_arch=x86_64)
+# Install Cudnn 8.7.0.84 (from local archive or https://developer.nvidia.com/downloads/c118-cudnn-windows-8664-87084cuda11-archivezip)
+# Clone or Download Zed Python API Repository (https://github.com/stereolabs/zed-python-api)
+
+# create conda environment
+conda create --name zed python=3.8
+
+# activate conda environment
+conda activate zed
+
+# add conda forge as additional default channel 
+conda config --add channels conda-forge
+
+# in the anaconda terminal, make sure to change into the directory 
+# that contains the get_python_api.py file
+
+# install conda packages
+conda install numpy==1.26.4 -y
+conda install opencv -y
+
+# install pip packages
+pip install cython
+pip install pyopengl
+pip install pyopengl-accelerate
+pip install python-osc
+
+# execute get_python_api.py script
+python get_python_api.py
