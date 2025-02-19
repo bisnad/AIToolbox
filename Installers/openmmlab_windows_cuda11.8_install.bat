@@ -19,14 +19,11 @@ echo Install Packages
 echo Install pytorch
 call conda install pytorch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 pytorch-cuda=11.8 -c pytorch -c nvidia -y
 
-echo Install spyder
-call conda install spyder -y
+echo Install pyqt
+call conda install pyqt -y
 
 echo Install pyqtgraph
 call conda install pyqtgraph -y
-
-echo Install pyopengl
-call conda install pyopengl -y
 
 echo Install pyopengl
 call conda install pyopengl -y

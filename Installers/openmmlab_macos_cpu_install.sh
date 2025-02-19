@@ -28,12 +28,6 @@ echo "Install Packages"
 echo "Install pytorch"
 conda install pytorch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 -c pytorch -y
 
-echo "Install spyder"
-conda install spyder -y
-
-echo "Install numpy version 1.26.4"
-conda install numpy==1.26.4 -y
-
 echo "Install pyqt"
 conda install pyqt -y
 
