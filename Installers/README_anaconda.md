@@ -72,7 +72,7 @@ The installation options for each of these Anaconda environments are the same as
 
 #### Qtm2Osc Qualisys to OSC conversion tool
 
-The installation of this tool is only useful for users who work with the Qualisys Track Manager Software. Since this software is only available for Windows , installer scripts, exported environments and installation instructions are only provided for Windows. 
+The installation of this tool is only useful for users who work with the [Qualisys Track Manager](https://www.qualisys.com/software/qualisys-track-manager/) Software. Since this software is only available for Windows , installer scripts, exported environments and installation instructions are only provided for Windows. 
 
 - Installer Scripts
   - qtm_windows_install.bat
