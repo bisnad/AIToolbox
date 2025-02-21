@@ -1,0 +1,18 @@
+# Manual Installation Instructions for qtm Conda Environment
+# Windows Version
+
+# Prerequisites
+# Install Anaconda (https://www.anaconda.com/download/success)
+
+# create conda environment
+conda create --name qtm python=3.8
+
+# activate conda environment
+conda activate qtm
+
+# add conda forge as additional default channel 
+conda config --add channels conda-forge
+
+# install pip packages
+pip install qtm
+pip install python-osc
