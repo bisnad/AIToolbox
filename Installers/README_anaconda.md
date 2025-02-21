@@ -63,11 +63,23 @@ The Premiere Anaconda environment can also be installed manually. This can be us
 
 A few python-based tools have very specific dependencies that are incompatible with the Premiere Anaconda environment. For each of these tools, an additional Anaconda environment has to be created. The following tools require such additional environments:
 
+- Qtm2Osc Qualisys to OSC conversion tool
 - Yolo 2D PoseEstimation tool
 - MMPose 2D and 3D Pose Estimation tool
 - ZED Stereo Camera 3D Pose Estimation tool
 
 The installation options for each of these Anaconda environments are the same as for the Premiere environment. They include an executable shell script, an exported environment, and manual installation instructions. In the following list, the corresponding files are grouped by tool:
+
+#### Qtm2Osc Qualisys to OSC conversion tool
+
+The installation of this tool is only useful for users who work with the Qualisys Track Manager Software. Since this software is only available for Windows , installer scripts, exported environments and installation instructions are only provided for Windows. 
+
+- Installer Scripts
+  - qtm_windows_install.bat
+- Exported Environments
+  - qtm_windows_install.yml
+- Manual Installation Instructions
+  - qtm_windows_install.txt
 
 #### Yolo 2D PoseEstimation tool
 
