@@ -4,7 +4,7 @@
 # MacOS CPU Version
 
 CONDA_PATH="$HOME/opt/anaconda3"
-ENV_NAME="premiere_test"
+ENV_NAME="premiere"
 PYTHON_VERSION=3.10
 source "$CONDA_PATH/bin/activate"
 
