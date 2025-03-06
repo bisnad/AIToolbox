@@ -115,11 +115,11 @@ Unfortunately, on MacOS, the installation of MMPose requires one cumbersome addi
 
 In this file, line 127 has to be changed from:
 
-`inds = NMSop.apply(bo`xes, scores, iou_threshold, offset, score_threshold,`max_num)`
+`inds = NMSop.apply(boxes, scores, iou_threshold, offset, score_threshold,max_num)`
 
 to: 
 
-`inds = NMSop.apply(bo`xes.to('cpu'), scores.to('cpu'), iou_threshold, offset, score_threshold,`max_num)`
+`inds = NMSop.apply(boxes.to('cpu'), scores.to('cpu'), iou_threshold, offset, score_threshold,max_num)`
 
 #### ZED Stereo Camera Python-based 3D Pose Estimation tool
 
