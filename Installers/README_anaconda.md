@@ -121,7 +121,7 @@ to:
 
 `inds = NMSop.apply(bo`xes.to('cpu'), scores.to('cpu'), iou_threshold, offset, score_threshold,`max_num)`
 
-#### ZED Stereo Camera 3D Pose Estimation tool
+#### ZED Stereo Camera Python-based 3D Pose Estimation tool
 
 The ZED Pose Estimation functionality strictly requires a Linux or Windows computer that is equipped with a Nvidia GPU. For this reason, the only installation instructions provided here are for Windows PCs in combination with Cuda version 11.8.
 
