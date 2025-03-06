@@ -18,7 +18,7 @@ The AI-Toolbox consists of a variety of software tools that are written in diffe
 
   Some tools require the C++ creative coding environment openFrameworks for compilation. This section describes the setup of openFrameworks and the additional addons that need to be downloaded. 
 
-- [ZED SDK](README_zed_cplusplus_sdk.md)
+- [ZED SDK](README_zed_sdk.md)
 
   Some C++- and Python-based tools simplify the use of Stereolab's ZED cameras as low end motion capture system. These tools require the ZED SDK. This section describes how  to install this SDK.
   
