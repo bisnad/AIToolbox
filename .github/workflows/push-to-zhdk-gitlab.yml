@@ -1,0 +1,21 @@
+name: Push to ZHdK Gitlab
+
+on:
+  - push
+  - delete
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    name: ZHdK Gitlab Mirror Action
+    steps:
+      - name: Checkout on Github
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Push to Gitlab
+        uses: bisnad/push-to-gitlab@main
+        with:
+          gitlab_repository: 'gitlab.zhdk.ch/dbisig/aitoolbox'
+          gitlab_token: ${{ secrets.ZHDK_GITLAB_ACCESS_TOKEN }}
