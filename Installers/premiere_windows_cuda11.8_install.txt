@@ -46,6 +46,7 @@ conda install ffmpeg-python -y
 conda install opencv -y
 conda install vispy -y
 conda install vocos -y
+conda install jupyter -y
 
 # install pip packages
 pip install einops-exts

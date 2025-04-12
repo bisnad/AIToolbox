@@ -91,6 +91,12 @@ call conda install opencv -y
 echo Install vispy
 call conda install vispy -y
 
+echo Install vocos
+conda install vocos -y
+
+echo Install jupyter
+conda install jupyter -y
+
 echo Install einops-exts
 pip install einops-exts
 
@@ -99,9 +105,6 @@ pip install python-osc
 
 echo Install simpleaudio
 pip install simpleaudio
-
-echo Install vocos
-pip install vocos
 
 echo Install fbx
 pip install fbx-2020.3.7-cp310-none-win_amd64.whl 
