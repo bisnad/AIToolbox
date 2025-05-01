@@ -100,9 +100,6 @@ conda install opencv -y
 echo "Install vispy"
 conda install vispy -y
 
-echo "Install vocos"
-conda install vocos -y
-
 echo "Install jupyter"
 conda install jupyter -y
 
@@ -114,6 +111,9 @@ pip install python-osc
 
 echo "Install simpleaudio"
 pip install simpleaudio
+
+echo "Install vocos"
+pip install vocos
 
 echo "Install fbx"
 pip install fbx-2020.3.7-cp310-cp310-macosx_10_15_universal2.whl

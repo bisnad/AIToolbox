@@ -45,11 +45,11 @@ conda install gym -y
 conda install ffmpeg-python -y
 conda install opencv -y
 conda install vispy -y
-conda install vocos -y
 conda install jupyter -y
 
 # install pip packages
 pip install einops-exts
 pip install python-osc
 pip install simpleaudio
+pip install vocos
 pip install fbx-2020.3.7-cp310-none-win_amd64.whl 

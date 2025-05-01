@@ -545,4 +545,5 @@ dependencies:
       - torchaudio==2.2.2
       - torchvision==0.17.2
       - vocos==0.1.0
+      - fbx-2020.3.7-cp310-none-win_amd64.whl
 prefix: C:\Users\dbisig\anaconda3\envs\premiere
