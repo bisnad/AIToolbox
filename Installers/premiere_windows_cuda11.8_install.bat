@@ -92,7 +92,7 @@ echo Install vispy
 call conda install vispy -y
 
 echo Install jupyter
-conda install jupyter -y
+call conda install jupyter -y
 
 echo Install einops-exts
 pip install einops-exts
