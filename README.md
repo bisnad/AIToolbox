@@ -15,8 +15,8 @@ The tools provided by the AI-Toolbox can be grouped into different categories. E
 
 This Github repository serves as main hub and entry point into the individual tool categories. Furthermore, it provides the following:
 
-- [installation instructions and scripts](https://github.com/bisnad/AIToolbox/tree/main/Installers)
-- [links to data files and trained model weights](https://github.com/bisnad/AIToolbox/tree/main/Data) 
+- [installation instructions and scripts](Installers)
+- [links to data files and trained model weights](Data) 
 
 In the near future, it will also provide information about performance works that have been created with the aid of the AI-toolbox. 
 
