@@ -4,7 +4,7 @@ The AI-Toolbox provides performance artists and companies with intuitive and fle
 
 The tools provided by the AI-Toolbox can be grouped into different categories. Each category has its own Github repository. The following categories are available:
 
-- Tools in the category "[Motion Utilities](../MotionUtilities)" include: a player for motion capture data, a recorder for sensor data streams, and two converters from proprietary motion capture protocols into the Open Sound Control protocols. 
+- Tools in the category "[Motion Utilities](https://github.com/bisnad/MotionUtilities)" include: a player for motion capture data, a recorder for sensor data streams, and two converters from proprietary motion capture protocols into the Open Sound Control protocols. 
 - Tools in the category "[Motion Analysis](https://github.com/bisnad/MotionAnalysis)” include: three Pose Estimation systems for monocular or stereo video, an analysis tool for deriving motion descriptors, a ML-based motion classifier, a motion clustering tool, and a nearest neighbors motion search and concatenation tool. 
 - Tools in the category "[Motion Transformation](https://github.com/bisnad/MotionTransformation)" include: an ML-based tool for transforming and blending motions.
 - Tools in the category "[Motion Continuation](https://github.com/bisnad/MotionContinuation)" include: an ML-based tool for continuing motion.
