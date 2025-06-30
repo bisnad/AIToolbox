@@ -4,19 +4,19 @@ The AI-Toolbox provides performance artists and companies with intuitive and fle
 
 The tools provided by the AI-Toolbox can be grouped into different categories. Each category has its own Github repository. The following categories are available:
 
-- Tools in the category "[Motion Utilitie](https://github.com/bisnad/MotionUtilities)s" include: a player for motion capture data, a recorder for sensor data streams, and two converters from proprietary motion capture protocols into the Open Sound Control protocols. 
-- Tools in the category "[Motion Analysis](https://github.com/bisnad/MotionAnalysis)” include: three Pose Estimation systems for monocular or stereo video, an analysis tool for deriving motion descriptors, a ML-based motion classifier, a motion clustering tool, and a nearest neighbors motion search and concatenation tool. 
-- Tools in the category "[Motion Transformation](https://github.com/bisnad/MotionTransformation)" include: an ML-based tool for transforming and blending motions.
-- Tools in the category "[Motion Continuation](https://github.com/bisnad/MotionContinuation)" include: an ML-based tool for continuing motion.
-- Tools in the category "[Motion Due](https://github.com/bisnad/MotionDuet)t" include two tools for generating motions for a second dancer in a duet.
-- Tools in the category "[Motion Simulation](https://github.com/bisnad/MotionSimulation)" include a tool for simulating motions of non-anthropomorphic morphologies. 
-- Tools in the category  “[Motion Sonification](https://github.com/bisnad/MotionSonification)” include: algorithms for physical model synthesis of wind instruments. 
-- Tools in the category “[Motion Visualisation](https://github.com/bisnad/MotionVisualisation)” include: a 3d graphics renderer using Raymarching, a ML-based image processing tool using DeepDream.
+- Tools in the category "[Motion Utilities](../MotionUtilities)" include: a player for motion capture data, a recorder for sensor data streams, and two converters from proprietary motion capture protocols into the Open Sound Control protocols. 
+- Tools in the category "[Motion Analysis](../MotionAnalysis)” include: three Pose Estimation systems for monocular or stereo video, an analysis tool for deriving motion descriptors, a ML-based motion classifier, a motion clustering tool, and a nearest neighbors motion search and concatenation tool. 
+- Tools in the category "[Motion Transformation](../MotionTransformation)" include: an ML-based tool for transforming and blending motions.
+- Tools in the category "[Motion Continuation](../MotionContinuation)" include: an ML-based tool for continuing motion.
+- Tools in the category "[Motion Duet](../MotionDuet)" include two tools for generating motions for a second dancer in a duet.
+- Tools in the category "[Motion Simulation](../MotionSimulation)" include a tool for simulating motions of non-anthropomorphic morphologies. 
+- Tools in the category  “[Motion Sonification](../MotionSonification)” include: algorithms for physical model synthesis of wind instruments. 
+- Tools in the category “[Motion Visualisation](../MotionVisualisation)” include: a 3d graphics renderer using Raymarching, a ML-based image processing tool using DeepDream.
 
 This Github repository serves as main hub and entry point into the individual tool categories. Furthermore, it provides the following:
 
-- [installation instructions and scripts](https://github.com/bisnad/AIToolbox/tree/main/Installers)
-- [links to data files and trained model weights](https://github.com/bisnad/AIToolbox/tree/main/Data) 
+- [installation instructions and scripts](Installers)
+- [links to data files and trained model weights](Data) 
 
 In the near future, it will also provide information about performance works that have been created with the aid of the AI-toolbox. 
 
