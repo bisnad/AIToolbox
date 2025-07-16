@@ -1,0 +1,61 @@
+Human3.6M (http://vision.imar.ro/human3.6m/description.php)
+
+>> joint indices and names
+
+0  : Bottom_Torso
+1  : Right_Hip
+2  : Right_Knee
+3  : Right_Foot
+4  : Left_Hip
+5  : Left_Knee
+6  : Left_Foot
+7  : Center_Torso
+8  : Upper_Torso
+9  : Neck_Base
+10 : Center_Head
+11 : Left_Shoulder
+12 : Left_Elbow
+13 : Left_Hand
+14 : Right_Shoulder
+15 : Right_Elbow
+16 : Right_Hand
+
+>> Skeleton Topology
+
+0  : [1, 4, 7]
+1  : [2]
+2  : [3]
+3  : []
+4  : [5]
+5  : [6]
+6  : []
+7  : [8]
+8  : [9, 11, 14]
+9  : [10]
+10 : []
+11 : [12]
+12 : [13]
+13 : []
+14 : [15]
+15 : [16]
+16 : []
+
+>> joint parents
+
+0 : -1
+1 : 0
+2 : 1
+3 : 2
+4 : 0
+5 : 4
+6 : 5
+7 : 0
+8 : 7
+9 : 8
+10 : 9
+11 : 8
+12 : 11
+13 : 12
+14 : 8
+15 : 14
+16 : 15

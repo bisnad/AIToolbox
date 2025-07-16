@@ -1,0 +1,53 @@
+AIC (https://github.com/AIChallenger/AI_Challenger_2017)
+
+>> joint indices and names
+
+0  : Right_Shoulder
+1  : Right_Elbow
+2  : Right_Hand
+3  : Left_Shoulder
+4  : Left_Elbow
+5  : Left_Hand
+6  : Right_Hip
+7  : Right_Knee
+8  : Right_Ankle
+9  : Left_Hip
+10 : Left_Knee
+11 : Left_Ankle
+12 : Head
+13 : Neck
+
+
+>> Skeleton Topology
+
+0  : [1, 6, 13]
+1  : [2]
+2  : []
+3  : [4]
+4  : [5]
+5  : []
+6  : [7]
+7  : [8]
+8  : []
+9  : [10]
+10 : [11]
+11 : []
+12 : []
+13 : [3, 12]
+
+>> joint parents
+
+0 : -1
+1 : 0
+2 : 1
+3 : 13
+4 : 3
+5 : 4
+6 : 0
+7 : 6
+8 : 7
+9 : 3
+10 : 9
+11 : 10
+12 : 13
+13 : 0

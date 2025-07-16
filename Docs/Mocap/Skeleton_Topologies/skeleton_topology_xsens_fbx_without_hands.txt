@@ -1,0 +1,51 @@
+>> joint indices and names
+
+0  : Hips
+1  : RightUpLeg
+2  : RightLeg
+3  : RightFoot
+4  : RightToeBase
+5  : LeftUpLeg
+6  : LeftLeg
+7  : LeftFoot
+8  : LeftToeBase
+9  : Spine
+10 : Spine1
+11 : Spine2
+12 : Spine3
+13 : LeftShoulder
+14 : LeftArm
+15 : LeftForeArm
+16 : LeftHand
+17 : RightShoulder
+18 : RightArm
+19 : RightForeArm
+20 : RightHand
+21 : Neck
+22 : Head
+
+>> Skeleton Topology
+
+0  : [1, 5, 9]
+1  : [2]
+2  : [3]
+3  : [4]
+4  : []
+5  : [6]
+6  : [7]
+7  : [8]
+8  : []
+9  : [10]
+10 : [11]
+11 : [12]
+12 : [13, 17, 21]
+13 : [14]
+14 : [15]
+15 : [16]
+16 : []
+17 : [18]
+18 : [19]
+19 : [20]
+20 : []
+21 : [22]
+22 : []
