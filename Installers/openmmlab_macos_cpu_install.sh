@@ -25,32 +25,38 @@ cd "$SCRIPT_PATH"
 # Install Packages
 echo "Install Packages"
 
+echo "Install mamba"
+conda install mamba -y
+
 echo "Install pytorch"
-conda install pytorch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 -c pytorch -y
+mamba install pytorch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 -c pytorch -y
 
 echo "Install pyqt"
-conda install pyqt -y
+mamba install pyqt -y
 
 echo "Install pyqtgraph"
-conda install pyqtgraph -y
+mamba install pyqtgraph -y
 
 echo "Install pyopengl"
-conda install pyopengl -y
+mamba install pyopengl -y
 
 echo "Install python-osc"
 pip install python-osc
 
+echo "Install mmengine"
+pip install mmengine
+
 echo "Install mmcv"
-pip install mmcv==2.1.0 -f https://download.openmmlab.com/mmcv/dist/cpu/torch2.1/index.html
+pip install "mmcv>=2.0.0rc4,<2.2.0"
 
 echo "Install mmdet"
 pip install "mmdet>=3.1.0"
 
-echo "Install openmim"
-pip install -U openmim
-
 echo "Install mmpose"
-mim install "mmpose>=1.1.0"
+pip install "mmpose>=1.1.0"
+
+echo "fix broken pytorch package"
+mamba install "mmcv>=2.0.0rc4,<2.2.0" -y
 
 echo Anaconda environment $ENV_NAME has been created and activated.
 
