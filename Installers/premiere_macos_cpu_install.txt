@@ -21,7 +21,7 @@ conda config --add channels conda-forge
 # that contains the fbx-2020.3.7-cp310-none-win_amd64.whl file
 
 # install conda packages
-conda install mamba
+conda install mamba -y
 mamba install pytorch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2 -c pytorch -y
 mamba install spyder -y
 mamba install numpy==1.26.4 -y
