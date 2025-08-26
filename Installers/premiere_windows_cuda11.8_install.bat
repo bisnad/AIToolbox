@@ -17,7 +17,7 @@ call conda activate %ENV_NAME%
 echo Install Packages
 
 echo Install mamba
-call conda install mamba
+call conda install mamba -y
 
 echo Install pytorch
 call mamba install pytorch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2 pytorch-cuda=11.8 -c pytorch -c nvidia -y
