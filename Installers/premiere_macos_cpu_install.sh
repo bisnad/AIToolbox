@@ -25,83 +25,86 @@ cd "$SCRIPT_PATH"
 # Install Packages
 echo "Install Packages"
 
+echo "Install mamba"
+conda install mamba -y
+
 echo "Install pytorch"
-conda install pytorch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2 -c pytorch -y
+mamba install pytorch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2 -c pytorch -y
 
 echo "Install spyder"
-conda install spyder -y
+mamba install spyder -y
 
 echo "Install numpy version 1.26.4"
-conda install numpy==1.26.4 -y
+mamba install numpy==1.26.4 -y
 
 echo "Install transformers"
-conda install transformers -y
+mamba install transformers -y
 
 echo "Install diffusers"
-conda install diffusers -y
+mamba install diffusers -y
 
 echo "Install datasets"
-conda install datasets -y
+mamba install datasets -y
 
 echo "Install sentencepiece"
-conda install sentencepiece -y
+mamba install sentencepiece -y
 
 echo "Install evaluate"
-conda install evaluate -y
+mamba install evaluate -y
 
 echo "Install matplotlib"
-conda install matplotlib -y
+mamba install matplotlib -y
 
 echo "Install scikit-learn"
-conda install scikit-learn -y
+mamba install scikit-learn -y
 
 echo "Install pandas"
-conda install pandas -y
+mamba install pandas -y
 
 echo "Install h5py"
-conda install h5py -y
+mamba install h5py -y
 
 echo "Install librosa"
-conda install librosa -y
+mamba install librosa -y
 
 echo "Install python-sounddevice"
 conda install python-sounddevice -y
 
 echo "Install pysoundfile"
-conda install pysoundfile -y
+mamba install pysoundfile -y
 
 echo "Install tqdm"
-conda install tqdm -y
+mamba install tqdm -y
 
 echo "Install pyqt"
-conda install pyqt -y
+mamba install pyqt -y
 
 echo "Install pyqtgraph"
-conda install pyqtgraph -y
+mamba install pyqtgraph -y
 
 echo "Install pyopengl"
-conda install pyopengl -y
+mamba install pyopengl -y
 
 echo "Install transforms3d"
-conda install transforms3d -y
+mamba install transforms3d -yy
 
 echo "Install pybullet"
-conda install pybullet -y
+mamba install pybullet -y
 
 echo "Install gym"
-conda install gym -y
+mamba install gym -y
 
 echo "Install ffmpeg-python"
-conda install ffmpeg-python -y
+mamba install ffmpeg-python -y
 
 echo "Install opencv"
-conda install opencv -y
+mamba install opencv -y
 
 echo "Install vispy"
-conda install vispy -y
+mamba install vispy -y
 
 echo "Install jupyter"
-conda install jupyter -y
+mamba install jupyterlab -y
 
 echo "Install einops-exts"
 pip install einops-exts
