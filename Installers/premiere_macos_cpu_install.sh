@@ -103,7 +103,7 @@ mamba install opencv -y
 echo "Install vispy"
 mamba install vispy -y
 
-echo "Install jupyter"
+echo "Install jupyterlab"
 mamba install jupyterlab -y
 
 echo "Install einops-exts"
