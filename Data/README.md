@@ -1,6 +1,6 @@
 # AI-Toolbox - Data
 
-As part of the AI-Toolbox, data in the form of dance recordings and machine learning model weights is made available. This data is stored outside of the GitHub repository. The top-level directory for all data related to the AI-Toolbox can be found [here](https://drive.google.com/drive/folders/1-j29Z5LZ3V5E6fI7mhzqRWnouXnYrm6_?usp=drive_link). It is recommended to download this directory to a location on your local drive outside and one level above the AI-Toolbox directory. In this location, all the tools that make use of this data will be able to find it.
+As part of the AI-Toolbox, data in the form of dance recordings and machine learning model weights is made available. This data is stored outside of the GitHub repository. The top-level directory for all data related to the AI-Toolbox can be found [here](https://drive.google.com/drive/folders/1_D7P4rw3WlFvQ0XgHgdPC2Q9X3_kekDI). It is recommended to download this directory to a location on your local drive outside and one level above the AI-Toolbox directory. In this location, all the tools that make use of this data will be able to find it.
 
 ## Motion Capture Recordings
 
