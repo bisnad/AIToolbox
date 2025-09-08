@@ -86,7 +86,7 @@ echo "Install pyopengl"
 mamba install pyopengl -y
 
 echo "Install transforms3d"
-mamba install transforms3d -yy
+mamba install transforms3d -y
 
 echo "Install pybullet"
 mamba install pybullet -y
