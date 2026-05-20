@@ -1,0 +1,31 @@
+# Manual Installation Instructions for MediaPipe Conda Environment
+
+# Prerequisites
+# Install Anaconda (https://www.anaconda.com/download/success)
+# Install mamba into base environment
+# Clone or Download the AIToolbox Github Repository (https://github.com/bisnad/AIToolbox)
+
+# create conda environment
+mamba create --name mediapipe python=3.10
+
+# activate conda environment
+conda activate mediapipe
+
+# add conda forge as additional default channel 
+conda config --add channels conda-forge
+
+# install conda packages
+mamba install numpy
+mamba install opencv
+mamba install protobuf
+mamba install absl-py
+mamba install scipy
+mamba install pyqt=5
+
+# install pip packages
+pip install tensorflow
+pip install mediapipe
+pip install python-osc
+pip install fbx-2020.3.7-cp310-cp310-macosx_10_15_universal2.whl
+or
+pip install fbx-2020.3.7-cp310-none-win_amd64.whl
