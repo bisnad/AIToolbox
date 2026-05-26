@@ -31,6 +31,11 @@ conda install yqt pytorch torchvision torchaudio cpuonly -c pytorch ultralytics 
 echo "Install python-osc"
 pip install python-osc
 
+echo "enable mps to cpu fallback"
+conda env config vars set PYTORCH_ENABLE_MPS_FALLBACK=1
+conda deactivate
+conda activate $ENV_NAME
+
 echo Anaconda environment $ENV_NAME has been created and activated.
 
 read -p "Press any key to exit..." -n 1 -s
