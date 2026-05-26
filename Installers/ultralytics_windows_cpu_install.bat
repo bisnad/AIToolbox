@@ -17,7 +17,7 @@ call conda activate %ENV_NAME%
 echo Install Packages
 
 echo Install pytorch and ultralytics
-call conda install pytorch torchvision torchaudio cpuonly -c pytorch ultralytics -y
+call conda install pyqt pytorch torchvision torchaudio cpuonly -c pytorch ultralytics -y
 
 echo install python-osc
 pip install python-osc

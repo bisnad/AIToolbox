@@ -17,7 +17,7 @@ call conda activate %ENV_NAME%
 echo Install Packages
 
 echo Install pytorch and ultralytics
-call conda install -c pytorch -c nvidia -c conda-forge pytorch torchvision pytorch-cuda=11.8 ultralytics -y
+call conda install -c pytorch -c nvidia -c conda-forge pyqt pytorch torchvision pytorch-cuda=11.8 ultralytics -y
 
 echo install python-osc
 pip install python-osc

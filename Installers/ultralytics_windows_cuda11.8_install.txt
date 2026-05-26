@@ -17,7 +17,7 @@ conda activate ultralytics
 conda config --add channels conda-forge
 
 # install conda packages
-conda install -c pytorch -c nvidia -c conda-forge pytorch torchvision pytorch-cuda=11.8 ultralytics
+conda install -c pytorch -c nvidia -c conda-forge pyqt pytorch torchvision pytorch-cuda=11.8 ultralytics
 
 # install pip
 pip install python-osc
