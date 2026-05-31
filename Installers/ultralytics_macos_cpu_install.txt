@@ -19,3 +19,8 @@ conda install -c pytorch -c conda-forge pyqt pytorch torchvision ultralytics
 
 # install pip
 pip install python-osc
+
+# enable mps to cpu fallback
+conda env config vars set PYTORCH_ENABLE_MPS_FALLBACK=1
+conda deactivate
+conda activate ultralytics
