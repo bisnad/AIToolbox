@@ -25,8 +25,11 @@ cd "$SCRIPT_PATH"
 # Install Packages
 echo "Install Packages"
 
+echo "Install mamba"
+conda install mamba -y
+
 echo "Install pytorch"
-conda install pytorch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2 -c pytorch -y
+mamba install pytorch==2.7.1 torchaudio==2.7.1 torchvision -c pytorch -y
 
 echo "Install spyder"
 conda install spyder -y
